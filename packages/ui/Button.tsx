@@ -1,4 +1,7 @@
 import * as React from "react";
 export const Button = () => {
-  return <button>Boop</button>;
+  return <button style={{
+    background: 'white',
+    color: 'black'
+  }}>Boop</button>;
 };
